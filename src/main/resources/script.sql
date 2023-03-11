@@ -1,0 +1,1 @@
+select product_name from jdbc_schema.customers left join orders o on customers.id = o.customer_id where name like :name
